@@ -1,0 +1,10 @@
+<script src="https://armorgames.com/play/12369/bob-the-robber"></script>
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        document.body.appendChild(player);
+        player.load("bob-the-robber.swf"); // Make sure this matches your file name
+    });
+</script>
